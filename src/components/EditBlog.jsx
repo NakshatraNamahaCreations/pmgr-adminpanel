@@ -5,7 +5,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import adminApi from "../adminApi";
 import "./EditBlog.css";
 
-const API_HOST = "https://pmgrbackend.onrender.com";
+const API_HOST = "https://api.pmgrandco.com";
 
 const EditBlog = () => {
   const navigate = useNavigate();

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const adminApi = axios.create({
-  baseURL: "https://pmgrbackend.onrender.com/api/admin",
+  baseURL: "https://api.pmgrandco.com/api/admin",
 });
 
 adminApi.interceptors.request.use((config) => {

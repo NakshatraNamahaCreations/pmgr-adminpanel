@@ -12,7 +12,7 @@ export default function BlogPage() {
   const fullImageUrl = (path) => {
     if (!path) return "/media/perar-logo.png";
     if (path.startsWith("http")) return path;
-    return `https://pmgrbackend.onrender.com/${path}`;
+    return `https://api.pmgrandco.com/${path}`;
   };
 
   const fetchBlogs = async () => {

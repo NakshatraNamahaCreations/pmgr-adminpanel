@@ -8,7 +8,7 @@ import { FaFile, FaPencil } from "react-icons/fa6";
 import "./AddBlog.css";
 import api from "../api"
 
-const API_URL = "http://https://pmgrbackend.onrender.com/api/admin/blogs";
+const API_URL = "http://https://api.pmgrandco.com/api/admin/blogs";
 
 const AddBlog = () => {
   const navigate = useNavigate();
